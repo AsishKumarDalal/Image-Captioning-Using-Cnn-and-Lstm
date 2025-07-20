@@ -159,10 +159,10 @@ tqdm>=4.62.0
 
 output_1:
 
-| ![output_1](images/output_1.jpg) 
+ ![output_1](images/output_1.jpg) 
 output_2:
 
-| ![output_2](images/output_2.jpg) 
+ ![output_2](images/output_2.jpg) 
 ## 🙏 Acknowledgments
 
 - **VGG16**: Simonyan & Zisserman (2014)
