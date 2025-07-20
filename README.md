@@ -157,8 +157,11 @@ tqdm>=4.62.0
 ```
 ### 🖼️ Predicted Images
 
-|---------------|-------------------|
+output_1:
+
 | ![output_1](images/output_1.jpg) 
+output_2:
+
 | ![output_2](images/output_2.jpg) 
 ## 🙏 Acknowledgments
 
