@@ -93,8 +93,8 @@ decoder_input = visual_features + textual_features
 ## 📊 Model Performance
 
 ### Evaluation Metrics
-- **BLEU-1**: Measures unigram precision (individual word accuracy)
-- **BLEU-2**: Evaluates bigram precision (phrase-level fluency)
+- **BLEU-1**: Measures unigram precision (individual word accuracy)   BLEU-1: 0.547770
+- **BLEU-2**: Evaluates bigram precision (phrase-level fluency)       BLEU-2: 0.323294
 - **Qualitative Assessment**: Visual inspection of generated captions
 
 ### Expected Performance
@@ -126,18 +126,9 @@ decoder_input = visual_features + textual_features
 - **Advanced CNN**: ResNet, EfficientNet for improved visual features
 - **Multi-scale Features**: Combine features from multiple CNN layers
 
-## 📁 Project Structure
-```
-├── Images/              # Flickr8k image dataset
-├── captions.txt         # Image-caption pairs
-├── model_training.py    # Main training script
-├── feature_extraction.py # VGG16 feature extraction
-├── data_preprocessing.py # Text and image preprocessing
-├── caption_generation.py # Inference pipeline
-└── evaluation.py        # BLEU score calculation
-```
 
-## 🔬 Research Context
+
+## 🔬 Project Context
 
 This architecture represents a foundational approach in **Neural Image Captioning**:
 - **Era**: Pre-attention mechanisms (2014-2016 methodology)
@@ -163,7 +154,7 @@ output_1:
 output_2:
 
  ![output_2](images/output_2.jpg) 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **VGG16**: Simonyan & Zisserman (2014)
 - **LSTM**: Hochreiter & Schmidhuber (1997)
