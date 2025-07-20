@@ -15,11 +15,7 @@ A sophisticated deep learning system that automatically generates natural langua
 
 This implementation employs a **multimodal encoder-decoder architecture** that bridges computer vision and natural language processing:
 
-```
-Image → VGG16 Encoder → Feature Vector (4096D) ─┐
-                                                ├─→ Fusion Layer → LSTM Decoder → Caption
-Text Sequence → Embedding → LSTM Encoder ──────┘
-```
+| ![Architecture](images/model_architecture.jpg) 
 
 ### Why This Architecture Works
 
@@ -159,7 +155,11 @@ matplotlib>=3.5.0
 nltk>=3.7.0
 tqdm>=4.62.0
 ```
+### 🖼️ Predicted Images
 
+|---------------|-------------------|
+| ![output_1](images/output_1.jpg) 
+| ![output_2](images/output_2.jpg) 
 ## 🙏 Acknowledgments
 
 - **VGG16**: Simonyan & Zisserman (2014)
